@@ -1,11 +1,11 @@
 // импортируем функцию валиадции
-import {ipCheck} from "./helpers/validate-ip.js"
+import {ipCheck} from "./src/helpers/validate-ip.js"
 
 // импортируем функцию отрисовки карты
-import {drawMap} from "./helpers/map-leaflet.js"
+import {drawMap} from "./src/helpers/map-leaflet.js"
 
 // импортируем функцию, которая отодвигает маркер на карте на небольших устройствах
-import {addoffset} from "./helpers/add-offset.js"
+import {addoffset} from "./src/helpers/add-offset.js"
 
 
 
