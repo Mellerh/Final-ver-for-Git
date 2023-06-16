@@ -69,6 +69,8 @@
   .search-bar__btn:hover {
     background-color: rgb(77, 77, 77);
   }
+
+  /* стерлка внутри кнопки */
   .search-bar__btn::after {
     display: block;
   
@@ -82,6 +84,7 @@
   }
   
   .info {
+    /* ширина блока info динамически меняется 100%-3rem */
     width: calc(100% - 3rem);
     background-color: white;
     padding: 2rem;
